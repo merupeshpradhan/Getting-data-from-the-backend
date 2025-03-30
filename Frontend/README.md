@@ -1,14 +1,23 @@
-# In this File use only Frontend
-
-### Install Here
-
-1. React
-
-2. Tailwindcss
-
-### Adding Plugins and dependenciess
+### Install here
 
 ```
- (i) npm install react-router-dom
+i -> React [ npm create vite@latest ]
 
+ii -> axios [ npm i axios ]
+```
+
+### Inside Vite.config.js writing
+
+```
+ server: {
+    proxy: {
+      "/api": "http://localhost:3000",
+    },
+  },
+```
+
+### Use Website Link
+
+```
+i -> its for server -> https://vite.dev/config/server-options
 ```

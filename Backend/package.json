@@ -1,20 +1,20 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "My Backend Practis - Rupesh Pradhan",
-  "main": "index.js",
+  "description": "Backend Practis",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "keywords": [
     "Javascript",
     "backend"
   ],
-  "author": "Rupesh Pradhan",
+  "author": "Rupesh Pradhna",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.7",
     "express": "^4.21.2"
   }
 }
